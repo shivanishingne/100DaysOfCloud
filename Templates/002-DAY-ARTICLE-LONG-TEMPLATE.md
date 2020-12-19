@@ -45,15 +45,15 @@
 
 ✍️ Describe what you think you think you want to do next.
 
+
+</br>
+---
+</br>
+
+
 ## Social Proof
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
 [link](link)
 
-
-
----
-
-<p align="left"><a href="../Day-01">← Day 01</a></p>
-<p align="right"><a href="../Day-03">Day 03 →</a></p>

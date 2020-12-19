@@ -8,20 +8,20 @@
 Hey, it's Shivani! I'm a software developer and have taken a great interest in the Cloud platform ☁
 
 
- I started this challenge in order to further my understanding of of AWS and to work with technologies that I have not worked with before.
+ I started this [challenge](https://twitter.com/ImperfectShishi/status/1339948107627261960) in order to further my understanding of of AWS and to work with technologies that I have not worked with before.
 
 
-At the end of the challenge, my goal is to have a deeper understanding and feel more comfortable with some of the features I don't deal with in my day-to-day, such as AWS Fargate, and serverless deployments and applications.
+At the end of the challenge, my goal is to have a deeper understanding and feel more comfortable with some of the features I don't deal with in my day-to-day, such as AWS Fargate, and serverless deployments and applications, and also create some projects based out of the learning.
 
 
 
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/shivani-shingne-a72363152/)
-- Connect with me on [Twitter](https://twitter.com/ImperfectShishi) 
+- Connect with me on [Twitter](https://twitter.com/ImperfectShishi)
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [](Journey/002/Readme.md)
+- [X] ☁️ 1 > [Day 1](Journey/001/Readme.md)
+- [X] ☁️ 2 > [Day 2](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [](Journey/005/Readme.md)
