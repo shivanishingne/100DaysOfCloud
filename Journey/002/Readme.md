@@ -28,7 +28,7 @@
 
 
 
-![Lambda Function](images/anatomy-of-a-lambda-function.png/500x300)
+![Lambda Function](https://github.com/shivanishingne/100DaysOfCloud/blob/main/images/anatomy-of-a-lambda-function.png)
 
 
 
