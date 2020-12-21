@@ -37,6 +37,4 @@
 
 ## Social Proof
 
-
-[Twitter]([link](https://twitter.com/ImperfectShishi/status/1340124030754406401))
-
+[twitter](https://twitter.com/ImperfectShishi/status/1340124030754406401)

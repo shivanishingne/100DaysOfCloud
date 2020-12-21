@@ -14,11 +14,11 @@
 
 
 </br>
+
 ---
+
 </br>
 
 ## Social Proof
 
-[Twitter proof](https://twitter.com/ImperfectShishi)
-
-
+[twitter](https://twitter.com/ImperfectShishi/status/1339954546517237762)
