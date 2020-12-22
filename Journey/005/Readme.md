@@ -1,52 +1,34 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# [Day 5/100] : S3 Bucket Overview
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### S3: An overview
+- • Amazon S3 is one of the main building blocks of AWS
+- • It’s advertised as ”infinitely scaling” storage
+- • Many websites use Amazon S3 as a backbone
+- • Many AWS services uses Amazon S3 as an integration as well
 
-## Try yourself
+### S3 Buckets
+-  S3 allows people to store objects (files) in “buckets” (directories)
+-  Buckets must have a globally unique name
+-  Buckets are defined at the region level
+-  S3 allows versioning of files in Buckets, and it is enabled at the Bucket-level
+-  We can encrypt objects in S3 in 4 methods
+   -  SSE-S3
+   -  SSE-KMS
+   -  SSE-C
+   -  Client Side Encryption
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+</br>
 
-### Step 1 — Summary of Step
+---
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+</br>
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+[twitter](https://twitter.com/ImperfectShishi/status/1341233393002979330)
 
-[link](link)
