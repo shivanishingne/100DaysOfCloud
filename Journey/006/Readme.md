@@ -1,52 +1,68 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# [Day 6/100] : AWS CDK Overview
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Prerequisites
+- Install CDK toolkit (using npm):
+```
+npm install -g aws-cdk
+```
 
-## Try yourself
+- Check toolkit version:
+```
+cdk --version
+```
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+#### Creating first CDK Project
+- After creating a directory, we use cdk init to create a new cdk project:
+```
+cdk init sample-app --language typescript
+```
 
-### Step 1 — Summary of Step
+#### Compiling typescript code
+- Since TypeScript sources need to be compiled to JavaScript, every time we make a modification to our source files, we would want them to be compiled to .js.
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Open new terminal to start watching for changes:
+```
+cd cdk-workshop   
+```
 
-### Step 1 — Summary of Step
+```
+npm run watch
+```
+- This will start the TypeScript compiler (tsc) in “watch” mode, which will monitor your project directory and will automatically compile any changes to your .ts files to .js.
 
-![Screenshot](https://via.placeholder.com/500x300)
+#### Project Structure
+> lib/cdk-workshop-stack.ts
 
-### Step 3 — Summary of Step
+..is where your CDK application’s main stack is defined.
 
-![Screenshot](https://via.placeholder.com/500x300)
+> bin/cdk-workshop.ts
 
-## ☁️ Cloud Outcome
+..is the entrypoint of the CDK application. It will load the stack defined above.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+> package.json
 
-## Next Steps
+..is your npm module manifest.
 
-✍️ Describe what you think you think you want to do next.
+> cdk.json
+
+..tells the toolkit how to run your app.
+
+> tsconfig.json
+
+.. is your project’s typescript configuration.
+
+
+
+</br>
+
+---
+</br>
 
 ## Social Proof
+- Documenting more changes in this [Github Repo](https://github.com/shivanishingne/aws-cdk-workshop) .
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+- [twitter](https://twitter.com/ImperfectShishi/status/1341460488647929857)
 
-[link](link)
