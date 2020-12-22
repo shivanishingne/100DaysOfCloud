@@ -10,11 +10,10 @@
 </br>
 
 ---
+
 </br>
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[twitter](link)
 
