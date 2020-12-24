@@ -1,52 +1,47 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# [Day 7/100] : CDK continued
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+####  Synthesize a template from your app
+-  When CDK apps are executed, they produce (or “synthesize”) an AWS CloudFormation template for each stack defined in your application
+  ```
+  cdk synth
+  ```
+  - `The AWS::CDK::Metadata` resource is automatically added by the toolkit to every stack. It is used by the AWS CDK team for analytics and to allow us to identify versions with security issues.
 
-## Try yourself
+#### Bootstrap stack
+- A "bootstrap stack" can be installed when deploying the cdk app for the first time.  This stack includes resources that are used in the toolkit’s operation (eg, S3 bucket that stores templates and asses during deployment process)
+```
+ cdk bootstrap
+```
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Note: If you get "Access Denied" error, then check whether AWS CLI is set up correctly, or if the active AWS profile does not have the `cloudformation:CreateChangeSet` permission.
 
-### Step 1 — Summary of Step
+#### CDK Deploy
+- To deploy the cdk app:
+  ```
+  cdk deploy
+  ```
+  
+  - Note: we will get a warning in the console
+  -  output should be in the format:
+     
+  `Stack ARN:
+arn:aws:cloudformation:REGION:ACCOUNT-ID:stack/CdkWorkshopStack/STACK-ID`
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+- Each CDK stack maps 1:1 with CloudFormation stack.
+  
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+</br>
 
-![Screenshot](https://via.placeholder.com/500x300)
+---
 
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+</br>
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+[twitter](https://twitter.com/ImperfectShishi/status/1341969885316796416)
 
-[link](link)
