@@ -1,52 +1,46 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# [Day 9/100] : EC2 Overview
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### EC2 Overview
+- It mainly consists in the capability of :
+   -  Renting virtual machines (EC2)
+   -  Storing data on virtual drives (EBS)
+   -  Distributing load across machines (ELB)
+   -  Scaling the services using an auto-scaling group (ASG)
 
-## Try yourself
+### SSH 
+- SSH or Secure Shell is a cryptographic network protocol for operating network services securely over an unsecured network.  It allows you to control a
+remote machine, all using the command line.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Can SSH using:
+  - OpenSSH ~/.ssh/config (...Linux/ Mac OS X)
+  - Putty       (... Windows)
+  - EC2 Instance Connect (..from within the browser)
 
-### Step 1 — Summary of Step
+### EC2 Instance Connect
+- Connects to your EC2 instance within your browser
+- No need to use your key file that was downloaded
+- A temporary key is uploaded onto EC2 by AWS
+- Works only **out-of-the-box with `Amazon Linux 2`**
+- Need to make sure the **port 22 is still opened**
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+### Tpes of IPs: 
+- Public IPs
+- Private IPs
+- Elastic IPs
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+</br>
 
-## ☁️ Cloud Outcome
+---
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+</br>
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+[twitter](https://twitter.com/ImperfectShishi/status/1342691743326584832)
 
-[link](link)

@@ -28,7 +28,7 @@ At the end of the challenge, my goal is to have a deeper understanding and feel 
 - [X] ☁️ 6 > [Day 6](Journey/006/Readme.md)
 - [X] ☁️ 7 > [Day 7](Journey/007/Readme.md)
 - [X] ☁️ 8 > [Day 8](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
+- [X] ☁️ 9 > [Day 9](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
 ## Walking down the road
