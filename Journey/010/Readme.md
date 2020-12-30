@@ -1,52 +1,52 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# [Day 10/100] : Progress on the CDK workshop
 
-## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+### Cloud Research
 
-## Prerequisite
+- The AWS CDK is shipped with an extensive library of constructs called the AWS Construct Library. The construct library is divided into modules, one for each AWS service.
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+### Adding Lambda fn.
+- For adding Lambda function, I needed the AWS Lambda construct library.
 
-## Use Case
+- To install the AWS Lambda module and all it’s dependencies into our project:
+  ```
+   npm install @aws-cdk/aws-lambda
+  ```
+  
+  - By doing `cdk diff` we can see, this code synthesizes an AWS::Lambda::Function resource
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Note: if `cdk deploy` command gives the following output:
+```
+"--require-approval" is enabled and stack includes security-sensitive updates, but terminal (TTY) is not attached so we are unable to get a confirmation from the user
+```
+..then try the option: 
+ `cdk deploy --require-approval never`
 
-## Cloud Research
+---
+### Adding API Gateway
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+#### Note ~
+    - API Gateway will expose a public HTTP endpoint that anyone on the internet can hit with an HTTP client such as curl or a web browser.
+    - Lambda proxy integration is a lightweight, flexible API Gateway API integration type that allows you to integrate an API method – or an entire API – with a Lambda function.
+    - We will be using Lambda proxy integration so that any request to any URL path will be proxied directly to our Lambda function, and the response from the function will be returned back to the user.
 
-## Try yourself
+- Installing APIg library:
+  ```
+  npm install @aws-cdk/aws-apigateway
+  ```
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+ #### Troubleshooting ~
+  - reasons for 5xx error returned from API Gateway:
+    - Make sure your handler returns a response that includes a `statusCode`, `body` and `header` fields.
+    - Degbug lambda function failure logs.
 
-### Step 1 — Summary of Step
+</br>
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+---
+</br>
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+[twitter](https://twitter.com/ImperfectShishi/status/1343914960737320960)
 
-[link](link)

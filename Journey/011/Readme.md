@@ -1,52 +1,32 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# [Day 11/100] : Creating our own constructs
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- About the new construct:
+- can be attached to any Lambda function that’s used as an API Gateway backend
+- will count how many requests were issued to each URL path
+- will store this in a DynamoDB table
 
-## Try yourself
+### What is done:
+- Defined a DynamoDB table with path as the partition key.
+- Defined a Lambda function which is bound to the lambda/hitcounter.handler code.
+- Wired the Lambda’s environment variables to the functionName and tableName of our resources.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Debugging:
+  Debugging was done from Cloudwatch logs. 
 
-### Step 1 — Summary of Step
+- Realised that we need to add permissions for our lambda function to read/write to the DynamoDB table.
+- ALSO, we need to give our hit counter lambda the permissions to invoke the downstream lambda function.
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+</br>
 
-![Screenshot](https://via.placeholder.com/500x300)
+---
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+</br>
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+[twitter](https://twitter.com/ImperfectShishi/status/1344257131915005952)
 
-[link](link)

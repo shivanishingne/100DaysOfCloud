@@ -20,20 +20,20 @@ At the end of the challenge, my goal is to have a deeper understanding and feel 
 
 ## Stepping out the door
 
-- [X] ☁️ 1 > [Day 1](Journey/001/Readme.md)
-- [X] ☁️ 2 > [Day 2](Journey/002/Readme.md)
-- [X] ☁️ 3 > [Day 3](Journey/003/Readme.md)
-- [X] ☁️ 4 > [Day 4](Journey/004/Readme.md)
-- [X] ☁️ 5 > [Day 5](Journey/005/Readme.md)
-- [X] ☁️ 6 > [Day 6](Journey/006/Readme.md)
-- [X] ☁️ 7 > [Day 7](Journey/007/Readme.md)
-- [X] ☁️ 8 > [Day 8](Journey/008/Readme.md)
-- [X] ☁️ 9 > [Day 9](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
+- [X] ☁️  1 > [Day 1](Journey/001/Readme.md)
+- [X] ☁️  2 > [Day 2](Journey/002/Readme.md)
+- [X] ☁️  3 > [Day 3](Journey/003/Readme.md)
+- [X] ☁️  4 > [Day 4](Journey/004/Readme.md)
+- [X] ☁️  5 > [Day 5](Journey/005/Readme.md)
+- [X] ☁️  6 > [Day 6](Journey/006/Readme.md)
+- [X] ☁️  7 > [Day 7](Journey/007/Readme.md)
+- [X] ☁️  8 > [Day 8](Journey/008/Readme.md)
+- [X] ☁️  9 > [Day 9](Journey/009/Readme.md)
+- [X] ☁️ 10 > [Day 10](Journey/010/Readme.md)
 
 ## Walking down the road
 
-- [ ] ☁️ 11 > [](Journey/011/Readme.md)
+- [X] ☁️ 11 > [Day 11](Journey/011/Readme.md)
 - [ ] ☁️ 12 > [](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
