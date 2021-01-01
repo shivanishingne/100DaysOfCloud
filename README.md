@@ -34,7 +34,7 @@ At the end of the challenge, my goal is to have a deeper understanding and feel 
 ## Walking down the road
 
 - [X] ☁️ 11 > [Day 11](Journey/011/Readme.md)
-- [ ] ☁️ 12 > [](Journey/012/Readme.md)
+- [X] ☁️ 12 > [Day 12](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [](Journey/015/Readme.md)
